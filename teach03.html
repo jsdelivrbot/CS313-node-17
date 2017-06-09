@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Teach 04</title>
+<style>
+
+<form action="teach04.php" method="post">
+    <label>Name: </label>
+    <input type="text" name="name" placeholder="Name" size:"30"><br>
+
+    <label>Email: </label>
+    <input type="email" name="email" size:"30"><br>
+
+    <label>Major: </label>
+    <input type="radio" name="major" value="Computer Science"> Computer Science<br>
+    <input type="radio" name="major" value="Web Design and Development"> Web Design and Development<br>
+    <input type="radio" name="major" value="Computer Information Technology"> Computer Information Technology
+    <input type="radio" name="major" value="Computer Engineering"> Computer Engineering<br>
+
+    <textarea rows="5" cols="50" name="comment">(Add comments here)</textarea><br>
+
+    <label>Places you've been: </label>
+    <input id="na" type="checkbox" name="places[]" value="North America"> North America<br>
+    <input id="sa" type="checkbox" name="places[]" value="South America"> South America<br>
+    <input id="eu" type="checkbox" name="places[]" value="Europe"> Europe<br>
+    <input id="as" type="checkbox" name="places[]" value="Asia"> Asia<br>
+    <input id="au" type="checkbox" name="places[]" value="Australia"> Australia<br>
+    <input id="af" type="checkbox" name="places[]" value="Africa"> Africa<br>
+    <input id="an" type="checkbox" name="places[]" value="Antarctica"> Antarctica<br>
+
+    <label for="submit"></label>
+    <input type="submit" value="Submit" onsubmit="submitButton()">
+
+</form>
+
+</body>
+</html>
