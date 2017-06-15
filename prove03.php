@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <meta charset="utf-8">
    <title>Shopping Cart</title>
 </head>
 
@@ -19,16 +16,13 @@
             </a>    
         </div>
             <h1 class="title"; align="center";>Hahn Kandies</h1>
-            <ul>
-                <li><a class="others" href="https://lit-wave-14499.herokuapp.com/index.html" target="_self">Index</a></li>
-            </ul>
         </div>
         
     <h1 align="center">Store</h1>
     <h2 align="center">Unfortunately (for some people) we only have M&Ms right now.</h2>
 
     <div id="main">
-        <form action="cart.php" method="post">
+        <form action="prove03.php" method="post">
             <table style="width:100%">
               <tr>
                 <th>Item</th>
@@ -46,31 +40,31 @@
                 <td>Peanut M&Ms</td>
                 <td><a target="_blank"><img src="http://img.wennermedia.com/920-width/mj-618_348_five-rules-for-a-healthier-halloween-stay-full-with-peanut-m-ms.jpg" alt="Peanut M&Ms." width="100" height="50"></a></td>
                 <td>10</td>
-                <td><input name="product[]" type="text" value="1" size="2"></input></td>
+                <td><input name="Peanut" type="text" value="1" size="2"></input></td>
               </tr>
               <tr>
                 <td>Peanut Butter M&Ms</td>
                 <td><a target="_blank"><img src="http://cdn2.blisstree.com/wp-content/uploads/2009/07/strawberriedpbmms3.jpg" alt="Peanut Butter M&Ms." width="100" height="50"></a></td>
                 <td>10</td>
-                <td><input name="product[]" type="text" value="1" size="2"></input></td>
+                <td><input name="PB" type="text" value="1" size="2"></input></td>
               </tr>
               <tr>
                 <td>Holiday Mint M&Ms</td>
                 <td><a target="_blank"><img src="http://photos1.blogger.com/blogger/1431/1452/1600/IMG_0849.jpg" alt="Holiday Mint M&Ms." width="100" height="50"></a></td>
                 <td>10</td>
-                <td><input name="product[]" type="text" value="1" size="2"></input></td>
+                <td><input name="Holiday" type="text" value="1" size="2"></input></td>
               </tr>
               <tr>
                 <td>Dark Chocolate M&Ms</td>
                 <td><a target="_blank"><img src="https://i2.wp.com/farm5.static.flickr.com/4135/4870443325_8ac0f1c0b2.jpg" alt="Dark Chocolate M&Ms." width="100" height="50"></a></td>
                 <td>10</td>
-                <td><input name="product[]" type="text" value="1" size="2"></input></td>
+                <td><input name="Dark" type="text" value="1" size="2"></input></td>
               </tr>
               <tr>
                 <td>Peppermint M&Ms</td>
                 <td><a target="_blank"><img src="http://farm8.staticflickr.com/7336/11166171813_4b76c7c77b_o.jpg" alt="Peppermint M&Ms." width="100" height="50"></a></td>
                 <td>10</td>
-                <td><input name="product[]" type="text" value="1" size="2"</input></td>
+                <td><input name="Peppermint" type="text" value="1" size="2"</input></td>
               </tr>
               <tr>
                 <td>MEGA M&Ms</td>
@@ -94,6 +88,3 @@
       <span style="font-weight: bold; font-size: small;"> &copy;  2017 "Hahn Kandy Supplies Co.". All Rights Reserved.</span> 
    </div>
 </div>
-
-</body>
-</html>
